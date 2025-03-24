@@ -1,0 +1,138 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: url('images/dark-wood.jpg');
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+    background: #fff;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Header */
+header {
+    background: url('images/header.jpg') no-repeat;
+    height: 120px;
+    padding: 20px;
+    position: relative;
+}
+
+h1 {
+    font-size: 24px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+/* Navigation */
+nav {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #999;
+    font-size: 14px;
+    padding: 5px 10px;
+    background: rgba(255,255,255,0.3);
+    border-radius: 5px;
+}
+
+nav ul li a.current {
+    color: #000;
+    font-weight: bold;
+}
+
+/* Main Content */
+.courses {
+    padding: 20px;
+    width: 640px;
+    float: left;
+}
+
+article {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+figure img {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+    border: 5px solid #fff;
+}
+
+h2 {
+    font-size: 20px;
+    color: #333;
+}
+
+h3 {
+    color: #C45A69;
+    font-size: 16px;
+}
+
+p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Sidebar */
+aside {
+    width: 260px;
+    position: absolute;
+    top: 200px; /* Adjust based on visual alignment */
+    right: 0;
+    background: #f8f8f8;
+    padding: 20px;
+}
+
+
+.popular-recipes h2, 
+.contact-details h2 {
+    color: #C45A69;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.popular-recipes a {
+    display: block;
+    color: #C45A69;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.contact-details {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Footer */
+footer {
+    background: #444;
+    color: #ccc;
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+    clear: both;
+}
